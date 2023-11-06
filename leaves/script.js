@@ -1,6 +1,6 @@
 
 
-let numLeaves = 2; 
+let numLeaves = 1; 
 
 let leaves = [];
 let xGroundr = [];
@@ -55,8 +55,8 @@ function draw() {
 
   if (mouseIsPressed == true) {
     for (let i = 0; i < numLeaves; i++) {
-        leaves.push(new Leaf(mouseX-35, mouseY-20));
-        leaves.push(new Leaf(mouseX+35, mouseY-20));
+        leaves.push(new Leaf(mouseX-45, mouseY-30));
+        leaves.push(new Leaf(mouseX+45, mouseY-30));
     }
 }
 drawPuppy(mouseX,mouseY);
