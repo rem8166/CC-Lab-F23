@@ -1,0 +1,14 @@
+p{
+    color: whitesmoke; 
+    background-color: palevioletred;
+}
+.description{
+    text-decoration: underline;
+}
+#canvasWrapper{
+    background-color: aquamarine;
+    outline: 2px blueviolet solid;
+}
+/* .p5name{
+
+} */
