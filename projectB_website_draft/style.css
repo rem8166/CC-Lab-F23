@@ -1,23 +1,42 @@
 
-body {
+head {
+	font-size: xx-large;
+	align-content: center;
+	justify-content: center;
 	font-family: 'times new roman';
     background-color:#0b4308
-   
+}
+body {
+	font-size: xx-large;
+	align-content: center;
+	justify-content: center;
+	font-family: 'times new roman';
+    background-color:#0b4308
 }
 h3 {
+	font-size: xx-large;
+	align-content: center;
+	justify-content: center;
 	background-color: #0b4308;
 }
-
+button{
+	font-size: xx-large;
+	font-family: 'Times New Roman';
+}
 html{
-    color: aliceblue;
+	font-size: xx-large;
+	align-content: center;
+	justify-content: center;
+	color: aliceblue;
 
 }
 
 div {
+	font-size: xx-large;
     display: inline-flexbox;
     position: static;
-	width: 400px;
-	height: 400px;
+	width: windowWidth;
+	height: 450px;
 	border-width: 2px;	
 	border-style: solid;
 	border-color: rgb(22, 231, 22);
