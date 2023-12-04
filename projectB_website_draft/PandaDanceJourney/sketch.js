@@ -25,7 +25,7 @@ let aBlob2 = [];
 let fireworks = [];
 let numFire = 2;
 let lanterns = [];
-let numLanterns = 10000;
+let numLanterns = 700;
 let lanternX;
 let lanternY;
 let i;
