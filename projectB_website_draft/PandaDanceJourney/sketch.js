@@ -944,7 +944,11 @@ class Lanterns {
     translate(this.x + this.offsetX, this.y);
     noStroke();
     fill(255, 0, 0);
-    circle(0, 0, 70);
+    ellipse(0, 0, 60,70);
+    fill(255, 255, 0);
+    circle(0,0,30);
+    fill(0);
+    text("福",-15,+10);
     pop();
   }
   checkIfClicked() {
